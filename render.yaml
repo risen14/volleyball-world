@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: volleyball-world
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.mjs"

@@ -1,0 +1,12 @@
+{
+  "name": "volleyball-world",
+  "version": "1.0.0",
+  "private": true,
+  "description": "世界排球赛事中心 · FIVB VIS 官方真实数据",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
