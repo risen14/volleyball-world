@@ -1,13 +1,13 @@
 // 每小时运行一次的“爬虫”：从 FIVB 官方 VIS（Volleyball Information System）接口
 // 拉取 100% 真实数据 —— 赛事、参赛国家、比赛时间、比分、场馆、阶段、球队名单（号码+位置）。
 // 说明：官方匿名接口不提供球员姓名（需鉴权），因此不再编造任何姓名。
-import { writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = path.join(__dirname, 'data');
-const DATA_FILE = path.join(DATA_DIR, 'live.json');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const DATA_FILE = path.join(__dirname, 'data.json');
 const HOUR = 60 * 60 * 1000;
 
 const VIS = 'https://www.fivb.org/Vis2009/XmlRequest.asmx?Request=';
@@ -141,6 +141,9 @@ export async function refresh() {
     liveSource = true;
   } catch (e) {
     console.error('[scraper] tournament fetch failed:', e.message);
+    if (state && state.matches && state.matches.length) {
+      return state; // 网络失败时保留上一次成功的数据，不清空
+    }
   }
 
   // 选赛事：仅男排/女排 + 世界级/洲际/大型赛事 + 时间窗口（近期结束 ~ 未来约3个月）
@@ -223,7 +226,6 @@ export async function refresh() {
   };
 
   try {
-    await mkdir(DATA_DIR, { recursive: true });
     await writeFile(DATA_FILE, JSON.stringify(state, null, 2));
   } catch (e) {
     console.error('[scraper] write failed:', e.message);
@@ -234,4 +236,13 @@ export async function refresh() {
 
 export function getState() {
   return state;
+}
+
+// 直接运行（GitHub Actions / 本地）：先读旧 data.json，再刷新写回
+if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
+  try {
+    state = JSON.parse(await readFile(DATA_FILE, 'utf8'));
+  } catch { /* 首次无数据 */ }
+  await refresh();
+  process.exit(0);
 }

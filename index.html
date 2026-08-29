@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d0d0f" />
+  <title>HBTv · 世界排球赛事中心</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-mark">◆</span>
+        <div class="brand-text">
+          <span class="brand-name">HBTv <em>WORLD</em></span>
+          <span class="brand-sub">世界排球赛事中心</span>
+        </div>
+      </div>
+      <div class="topbar-meta">
+        <span class="live-dot" id="live-dot"></span>
+        <span id="live-dot-label">数据连接中…</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-inner">
+      <p class="hero-kicker">VOLLEYBALL · MEN &amp; WOMEN</p>
+      <h1>世界排球<em>赛事</em>速览</h1>
+      <p class="hero-sub">汇聚 Volleyball World（FIVB）男排 / 女排各大赛事：真实赛程、参赛国家、比分与时间，每小时自动更新。</p>
+      <div class="hero-badges">
+        <span class="badge badge-live">● 实时</span>
+        <span class="badge" id="hero-competitions">正在加载赛事…</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <!-- 统计 -->
+    <section class="stats" id="stats">
+      <div class="stat"><div class="stat-num" id="stat-live">0</div><div class="stat-label">进行中</div></div>
+      <div class="stat"><div class="stat-num" id="stat-upcoming">0</div><div class="stat-label">即将开始</div></div>
+      <div class="stat"><div class="stat-num" id="stat-men">0</div><div class="stat-label">男排场次</div></div>
+      <div class="stat"><div class="stat-num" id="stat-women">0</div><div class="stat-label">女排场次</div></div>
+    </section>
+
+    <!-- 赛事一览 -->
+    <section class="comps" id="comp-strip"></section>
+
+    <!-- 控制栏 -->
+    <section class="controls">
+      <div class="tabs" id="gender-tabs">
+        <button class="tab active" data-gender="all">全部</button>
+        <button class="tab tab-men" data-gender="men">男排</button>
+        <button class="tab tab-women" data-gender="women">女排</button>
+      </div>
+      <div class="filters">
+        <select id="status-filter" class="select">
+          <option value="all">全部状态</option>
+          <option value="live">🔴 进行中</option>
+          <option value="upcoming">⏳ 未开始</option>
+          <option value="finished">✅ 已结束</option>
+        </select>
+        <select id="comp-filter" class="select"><option value="all">全部赛事</option></select>
+      </div>
+    </section>
+
+    <!-- 比赛列表 -->
+    <section class="matches" id="match-list"></section>
+
+    <div class="empty" id="empty" hidden>没有符合条件的比赛</div>
+
+    <footer class="footer">
+      <p>数据来源：<strong id="source-label">FIVB VIS 官方接口</strong>（真实赛事 / 国家 / 时间 / 比分）。</p>
+      <p>最后更新 <span id="updated-at">—</span> · 下次更新 <span id="next-update">—</span> · 每小时自动更新</p>
+      <p class="foot-note">非官方页面，风格致敬 Volleyball World / VBTV，数据以官方为准。</p>
+    </footer>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
