@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-29T12:48:01.735Z",
-  "nextUpdate": "2026-08-29T13:48:01.735Z",
+  "updatedAt": "2026-08-29T13:51:13.494Z",
+  "nextUpdate": "2026-08-29T14:51:13.494Z",
   "source": "FIVB VIS 官方接口（真实数据）",
   "liveSource": true,
   "competitions": [
@@ -204,63 +204,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "m-28825",
-      "gender": "women",
-      "event": "亚洲女排锦标赛 2026",
-      "eventShort": "亚洲女排锦标赛 2026",
-      "round": "Final Round · Semifinals",
-      "home": {
-        "country": "中国",
-        "en": "China",
-        "code": "CHN",
-        "flag": "🇨🇳"
-      },
-      "away": {
-        "country": "伊朗",
-        "en": "Iran",
-        "code": "IRI",
-        "flag": "🇮🇷"
-      },
-      "datetime": "2026-08-29T12:20:00Z",
-      "dateLocal": "2026-08-29",
-      "timeLocal": "20:00:00",
-      "venue": "Tianjin Olympic Center Gymnasium, Tianjin, China",
-      "status": "live",
-      "score": {
-        "home": 1,
-        "away": 0
-      },
-      "sets": [
-        "25-22"
-      ]
-    },
-    {
-      "id": "m-29080",
-      "gender": "women",
-      "event": "非洲女排锦标赛 2026",
-      "eventShort": "非洲女排锦标赛 2026",
-      "round": "Round of 16",
-      "home": {
-        "country": "阿尔及利亚",
-        "en": "Algeria",
-        "code": "ALG",
-        "flag": "🇩🇿"
-      },
-      "away": {
-        "country": "塞内加尔",
-        "en": "Senegal",
-        "code": "SEN",
-        "flag": ""
-      },
-      "datetime": "2026-08-29T13:00:00Z",
-      "dateLocal": "2026-08-29",
-      "timeLocal": "16:00:00",
-      "venue": "Kasarani Arena, Nairobi, Kenya",
-      "status": "live",
-      "score": null,
-      "sets": []
-    },
     {
       "id": "m-27592",
       "gender": "men",
@@ -4365,6 +4308,58 @@
       "dateLocal": "2026-09-16",
       "timeLocal": "20:00:00",
       "venue": "BT Arena CLUJ NAPOCA, CLUJ NAPOCA, Romania",
+      "status": "upcoming",
+      "score": null,
+      "sets": []
+    },
+    {
+      "id": "m-28873",
+      "gender": "men",
+      "event": "南美男排锦标赛 2026",
+      "eventShort": "南美男排锦标赛 2026",
+      "round": "Round Robin · Round Robin",
+      "home": {
+        "country": "待定",
+        "en": "",
+        "code": "",
+        "flag": ""
+      },
+      "away": {
+        "country": "待定",
+        "en": "",
+        "code": "",
+        "flag": ""
+      },
+      "datetime": "2026-09-16T17:00:00Z",
+      "dateLocal": "2026-09-16",
+      "timeLocal": "14:00:00",
+      "venue": "Rio de Janeiro, Brazil",
+      "status": "upcoming",
+      "score": null,
+      "sets": []
+    },
+    {
+      "id": "m-29032",
+      "gender": "men",
+      "event": "欧洲男排锦标赛 2026",
+      "eventShort": "欧洲男排锦标赛 2026",
+      "round": "Pool A in ITA",
+      "home": {
+        "country": "捷克",
+        "en": "Czech Republic",
+        "code": "CZE",
+        "flag": "🇨🇿"
+      },
+      "away": {
+        "country": "斯洛文尼亚",
+        "en": "Slovenia",
+        "code": "SLO",
+        "flag": "🇸🇮"
+      },
+      "datetime": "2026-09-16T19:00:00Z",
+      "dateLocal": "2026-09-16",
+      "timeLocal": "21:00:00",
+      "venue": "Palapanini MODENA, MODENA, Italy",
       "status": "upcoming",
       "score": null,
       "sets": []
