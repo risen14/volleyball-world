@@ -192,10 +192,6 @@ export async function refresh() {
       startDate: t.startDate, endDate: t.endDate, live: true
     });
 
-    // 已结束超过45天的赛事只列名、不取比赛（其比赛不会进入“最近4场”）
-    const endDate = new Date(t.endDate).getTime();
-    if (isFinite(endDate) && endDate < nowMs - 45 * D) continue;
-
     try {
       const ms = await fetchMatches(t.no);
       for (const m of ms) {
@@ -232,14 +228,23 @@ export async function refresh() {
     }
   }
 
-  // 展示：进行中(全部) + 未开始(全部，最近的在前) + 已结束(仅最近 4 场)
+  // 展示：进行中(全部) + 未开始(全部) + 已结束(每类赛事各保留最近 4 场)
   const live = matches.filter(m => m.status === 'live')
     .sort((a, b) => new Date(a.datetime) - new Date(b.datetime));
   const upcoming = matches.filter(m => m.status === 'upcoming')
     .sort((a, b) => new Date(a.datetime) - new Date(b.datetime));
-  const finished = matches.filter(m => m.status === 'finished')
-    .sort((a, b) => new Date(b.datetime) - new Date(a.datetime))
-    .slice(0, 4);
+  const byEvent = new Map();
+  for (const m of matches) {
+    if (m.status !== 'finished') continue;
+    if (!byEvent.has(m.event)) byEvent.set(m.event, []);
+    byEvent.get(m.event).push(m);
+  }
+  const finished = [];
+  for (const arr of byEvent.values()) {
+    arr.sort((a, b) => new Date(b.datetime) - new Date(a.datetime));
+    finished.push(...arr.slice(0, 4));
+  }
+  finished.sort((a, b) => new Date(b.datetime) - new Date(a.datetime));
   const trimmed = [...live, ...upcoming, ...finished];
 
   state = {

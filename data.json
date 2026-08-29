@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-29T14:04:05.195Z",
-  "nextUpdate": "2026-08-29T15:04:05.195Z",
+  "updatedAt": "2026-08-29T14:18:57.936Z",
+  "nextUpdate": "2026-08-29T15:18:57.936Z",
   "source": "FIVB VIS 官方接口（真实数据）",
   "liveSource": true,
   "competitions": [
@@ -101,16 +101,16 @@
       "eventShort": "亚洲女排锦标赛 2026",
       "round": "Final Round · Final 3-4",
       "home": {
-        "country": "待定",
-        "en": "",
-        "code": "",
-        "flag": ""
+        "country": "伊朗",
+        "en": "Iran",
+        "code": "IRI",
+        "flag": "🇮🇷"
       },
       "away": {
-        "country": "待定",
-        "en": "",
-        "code": "",
-        "flag": ""
+        "country": "日本",
+        "en": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵"
       },
       "datetime": "2026-08-30T07:15:00Z",
       "dateLocal": "2026-08-30",
@@ -127,16 +127,16 @@
       "eventShort": "亚洲女排锦标赛 2026",
       "round": "Final Round · Final 1-2",
       "home": {
-        "country": "待定",
-        "en": "",
-        "code": "",
-        "flag": ""
+        "country": "中国",
+        "en": "China",
+        "code": "CHN",
+        "flag": "🇨🇳"
       },
       "away": {
-        "country": "待定",
-        "en": "",
-        "code": "",
-        "flag": ""
+        "country": "泰国",
+        "en": "Thailand",
+        "code": "THA",
+        "flag": "🇹🇭"
       },
       "datetime": "2026-08-30T10:45:00Z",
       "dateLocal": "2026-08-30",
@@ -954,6 +954,822 @@
         "16-25",
         "12-25",
         "17-25"
+      ]
+    },
+    {
+      "id": "m-26549",
+      "gender": "men",
+      "event": "世界男排联赛 2026",
+      "eventShort": "世界男排联赛 2026",
+      "round": "Final Round · Final 1-2",
+      "home": {
+        "country": "美国",
+        "en": "USA",
+        "code": "USA",
+        "flag": "🇺🇸"
+      },
+      "away": {
+        "country": "波兰",
+        "en": "Poland",
+        "code": "POL",
+        "flag": "🇵🇱"
+      },
+      "datetime": "2026-08-02T11:30:00Z",
+      "dateLocal": "2026-08-02",
+      "timeLocal": "19:30:00",
+      "venue": "Ningbo Beilun Sports and Arts Centre, Ningbo Beilun, China",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "sets": [
+        "21-25",
+        "25-23",
+        "27-25",
+        "23-25",
+        "10-15"
+      ]
+    },
+    {
+      "id": "m-26548",
+      "gender": "men",
+      "event": "世界男排联赛 2026",
+      "eventShort": "世界男排联赛 2026",
+      "round": "Final Round · Final 3-4",
+      "home": {
+        "country": "日本",
+        "en": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵"
+      },
+      "away": {
+        "country": "斯洛文尼亚",
+        "en": "Slovenia",
+        "code": "SLO",
+        "flag": "🇸🇮"
+      },
+      "datetime": "2026-08-02T07:40:00Z",
+      "dateLocal": "2026-08-02",
+      "timeLocal": "15:40:00",
+      "venue": "Ningbo Beilun Sports and Arts Centre, Ningbo Beilun, China",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "sets": [
+        "21-25",
+        "28-26",
+        "22-25",
+        "22-25"
+      ]
+    },
+    {
+      "id": "m-26546",
+      "gender": "men",
+      "event": "世界男排联赛 2026",
+      "eventShort": "世界男排联赛 2026",
+      "round": "Final Round · Semifinals",
+      "home": {
+        "country": "日本",
+        "en": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵"
+      },
+      "away": {
+        "country": "美国",
+        "en": "USA",
+        "code": "USA",
+        "flag": "🇺🇸"
+      },
+      "datetime": "2026-08-01T11:30:00Z",
+      "dateLocal": "2026-08-01",
+      "timeLocal": "19:30:00",
+      "venue": "Ningbo Beilun Sports and Arts Centre, Ningbo Beilun, China",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "sets": [
+        "19-25",
+        "25-23",
+        "25-20",
+        "19-25",
+        "13-15"
+      ]
+    },
+    {
+      "id": "m-26547",
+      "gender": "men",
+      "event": "世界男排联赛 2026",
+      "eventShort": "世界男排联赛 2026",
+      "round": "Final Round · Semifinals",
+      "home": {
+        "country": "斯洛文尼亚",
+        "en": "Slovenia",
+        "code": "SLO",
+        "flag": "🇸🇮"
+      },
+      "away": {
+        "country": "波兰",
+        "en": "Poland",
+        "code": "POL",
+        "flag": "🇵🇱"
+      },
+      "datetime": "2026-08-01T07:00:00Z",
+      "dateLocal": "2026-08-01",
+      "timeLocal": "15:00:00",
+      "venue": "Ningbo Beilun Sports and Arts Centre, Ningbo Beilun, China",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "sets": [
+        "16-25",
+        "19-25",
+        "17-25"
+      ]
+    },
+    {
+      "id": "m-26665",
+      "gender": "women",
+      "event": "世界女排联赛 2026",
+      "eventShort": "世界女排联赛 2026",
+      "round": "Final Round · Final 1-2",
+      "home": {
+        "country": "土耳其",
+        "en": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷"
+      },
+      "away": {
+        "country": "巴西",
+        "en": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷"
+      },
+      "datetime": "2026-07-26T11:30:00Z",
+      "dateLocal": "2026-07-26",
+      "timeLocal": "19:30:00",
+      "venue": "East Asian Games Dome, Macao, Macao, China",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "sets": [
+        "23-25",
+        "25-23",
+        "26-24",
+        "25-21"
+      ]
+    },
+    {
+      "id": "m-26664",
+      "gender": "women",
+      "event": "世界女排联赛 2026",
+      "eventShort": "世界女排联赛 2026",
+      "round": "Final Round · Final 3-4",
+      "home": {
+        "country": "中国",
+        "en": "China",
+        "code": "CHN",
+        "flag": "🇨🇳"
+      },
+      "away": {
+        "country": "意大利",
+        "en": "Italy",
+        "code": "ITA",
+        "flag": "🇮🇹"
+      },
+      "datetime": "2026-07-26T07:30:00Z",
+      "dateLocal": "2026-07-26",
+      "timeLocal": "15:30:00",
+      "venue": "East Asian Games Dome, Macao, Macao, China",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "sets": [
+        "16-25",
+        "25-23",
+        "22-25",
+        "13-25"
+      ]
+    },
+    {
+      "id": "m-26662",
+      "gender": "women",
+      "event": "世界女排联赛 2026",
+      "eventShort": "世界女排联赛 2026",
+      "round": "Final Round · Semifinals",
+      "home": {
+        "country": "中国",
+        "en": "China",
+        "code": "CHN",
+        "flag": "🇨🇳"
+      },
+      "away": {
+        "country": "土耳其",
+        "en": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷"
+      },
+      "datetime": "2026-07-25T11:30:00Z",
+      "dateLocal": "2026-07-25",
+      "timeLocal": "19:30:00",
+      "venue": "East Asian Games Dome, Macao, Macao, China",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "sets": [
+        "21-25",
+        "15-25",
+        "20-25"
+      ]
+    },
+    {
+      "id": "m-26663",
+      "gender": "women",
+      "event": "世界女排联赛 2026",
+      "eventShort": "世界女排联赛 2026",
+      "round": "Final Round · Semifinals",
+      "home": {
+        "country": "巴西",
+        "en": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷"
+      },
+      "away": {
+        "country": "意大利",
+        "en": "Italy",
+        "code": "ITA",
+        "flag": "🇮🇹"
+      },
+      "datetime": "2026-07-25T08:00:00Z",
+      "dateLocal": "2026-07-25",
+      "timeLocal": "16:00:00",
+      "venue": "East Asian Games Dome, Macao, Macao, China",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "sets": [
+        "21-25",
+        "25-21",
+        "26-24",
+        "21-25",
+        "15-12"
+      ]
+    },
+    {
+      "id": "m-21125",
+      "gender": "men",
+      "event": "世界男排锦标赛 2025",
+      "eventShort": "世界男排锦标赛 2025",
+      "round": "Final Round · Final 1-2",
+      "home": {
+        "country": "保加利亚",
+        "en": "Bulgaria",
+        "code": "BUL",
+        "flag": "🇧🇬"
+      },
+      "away": {
+        "country": "意大利",
+        "en": "Italy",
+        "code": "ITA",
+        "flag": "🇮🇹"
+      },
+      "datetime": "2025-09-28T10:30:00Z",
+      "dateLocal": "2025-09-28",
+      "timeLocal": "18:30:00",
+      "venue": "SM Mall of Asia Arena, Pasay City, Philippines",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "sets": [
+        "21-25",
+        "17-25",
+        "25-17",
+        "10-25"
+      ]
+    },
+    {
+      "id": "m-21124",
+      "gender": "men",
+      "event": "世界男排锦标赛 2025",
+      "eventShort": "世界男排锦标赛 2025",
+      "round": "Final Round · Final 3-4",
+      "home": {
+        "country": "捷克",
+        "en": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿"
+      },
+      "away": {
+        "country": "波兰",
+        "en": "Poland",
+        "code": "POL",
+        "flag": "🇵🇱"
+      },
+      "datetime": "2025-09-28T06:30:00Z",
+      "dateLocal": "2025-09-28",
+      "timeLocal": "14:30:00",
+      "venue": "SM Mall of Asia Arena, Pasay City, Philippines",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "sets": [
+        "18-25",
+        "25-23",
+        "22-25",
+        "21-25"
+      ]
+    },
+    {
+      "id": "m-21123",
+      "gender": "men",
+      "event": "世界男排锦标赛 2025",
+      "eventShort": "世界男排锦标赛 2025",
+      "round": "Final Round · Semi-finals",
+      "home": {
+        "country": "波兰",
+        "en": "Poland",
+        "code": "POL",
+        "flag": "🇵🇱"
+      },
+      "away": {
+        "country": "意大利",
+        "en": "Italy",
+        "code": "ITA",
+        "flag": "🇮🇹"
+      },
+      "datetime": "2025-09-27T10:30:00Z",
+      "dateLocal": "2025-09-27",
+      "timeLocal": "18:30:00",
+      "venue": "SM Mall of Asia Arena, Pasay City, Philippines",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "sets": [
+        "21-25",
+        "22-25",
+        "23-25"
+      ]
+    },
+    {
+      "id": "m-21122",
+      "gender": "men",
+      "event": "世界男排锦标赛 2025",
+      "eventShort": "世界男排锦标赛 2025",
+      "round": "Final Round · Semi-finals",
+      "home": {
+        "country": "捷克",
+        "en": "Czechia",
+        "code": "CZE",
+        "flag": "🇨🇿"
+      },
+      "away": {
+        "country": "保加利亚",
+        "en": "Bulgaria",
+        "code": "BUL",
+        "flag": "🇧🇬"
+      },
+      "datetime": "2025-09-27T06:30:00Z",
+      "dateLocal": "2025-09-27",
+      "timeLocal": "14:30:00",
+      "venue": "SM Mall of Asia Arena, Pasay City, Philippines",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "sets": [
+        "20-25",
+        "25-23",
+        "21-25",
+        "22-25"
+      ]
+    },
+    {
+      "id": "m-22454",
+      "gender": "women",
+      "event": "世界女排锦标赛 2025",
+      "eventShort": "世界女排锦标赛 2025",
+      "round": "Final Round · Final 1-2",
+      "home": {
+        "country": "土耳其",
+        "en": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷"
+      },
+      "away": {
+        "country": "意大利",
+        "en": "Italy",
+        "code": "ITA",
+        "flag": "🇮🇹"
+      },
+      "datetime": "2025-09-07T12:30:00Z",
+      "dateLocal": "2025-09-07",
+      "timeLocal": "19:30:00",
+      "venue": "Indoor Stadium Huamark, Bangkok, Thailand",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "sets": [
+        "23-25",
+        "25-13",
+        "24-26",
+        "25-19",
+        "8-15"
+      ]
+    },
+    {
+      "id": "m-22453",
+      "gender": "women",
+      "event": "世界女排锦标赛 2025",
+      "eventShort": "世界女排锦标赛 2025",
+      "round": "Final Round · Final 3-4",
+      "home": {
+        "country": "日本",
+        "en": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵"
+      },
+      "away": {
+        "country": "巴西",
+        "en": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷"
+      },
+      "datetime": "2025-09-07T08:30:00Z",
+      "dateLocal": "2025-09-07",
+      "timeLocal": "15:30:00",
+      "venue": "Indoor Stadium Huamark, Bangkok, Thailand",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "sets": [
+        "12-25",
+        "17-25",
+        "25-19",
+        "29-27",
+        "16-18"
+      ]
+    },
+    {
+      "id": "m-22452",
+      "gender": "women",
+      "event": "世界女排锦标赛 2025",
+      "eventShort": "世界女排锦标赛 2025",
+      "round": "Final Round · Semi-finals",
+      "home": {
+        "country": "意大利",
+        "en": "Italy",
+        "code": "ITA",
+        "flag": "🇮🇹"
+      },
+      "away": {
+        "country": "巴西",
+        "en": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷"
+      },
+      "datetime": "2025-09-06T12:30:00Z",
+      "dateLocal": "2025-09-06",
+      "timeLocal": "19:30:00",
+      "venue": "Indoor Stadium Huamark, Bangkok, Thailand",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "sets": [
+        "22-25",
+        "25-22",
+        "28-30",
+        "25-22",
+        "15-13"
+      ]
+    },
+    {
+      "id": "m-22451",
+      "gender": "women",
+      "event": "世界女排锦标赛 2025",
+      "eventShort": "世界女排锦标赛 2025",
+      "round": "Final Round · Semi-finals",
+      "home": {
+        "country": "日本",
+        "en": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵"
+      },
+      "away": {
+        "country": "土耳其",
+        "en": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷"
+      },
+      "datetime": "2025-09-06T08:30:00Z",
+      "dateLocal": "2025-09-06",
+      "timeLocal": "15:30:00",
+      "venue": "Indoor Stadium Huamark, Bangkok, Thailand",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "sets": [
+        "25-16",
+        "17-25",
+        "18-25",
+        "25-27"
+      ]
+    },
+    {
+      "id": "m-19112",
+      "gender": "women",
+      "event": "奥运会女排 2024",
+      "eventShort": "奥运会女排 2024",
+      "round": "Final Round · Gold Medal Match",
+      "home": {
+        "country": "美国",
+        "en": "USA",
+        "code": "USA",
+        "flag": "🇺🇸"
+      },
+      "away": {
+        "country": "意大利",
+        "en": "Italy",
+        "code": "ITA",
+        "flag": "🇮🇹"
+      },
+      "datetime": "2024-08-11T11:00:00Z",
+      "dateLocal": "2024-08-11",
+      "timeLocal": "13:00:00",
+      "venue": "South Paris Arena 1, Paris, France",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "sets": [
+        "18-25",
+        "20-25",
+        "17-25"
+      ]
+    },
+    {
+      "id": "m-19111",
+      "gender": "women",
+      "event": "奥运会女排 2024",
+      "eventShort": "奥运会女排 2024",
+      "round": "Final Round · Bronze Medal Match",
+      "home": {
+        "country": "巴西",
+        "en": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷"
+      },
+      "away": {
+        "country": "土耳其",
+        "en": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷"
+      },
+      "datetime": "2024-08-10T15:15:00Z",
+      "dateLocal": "2024-08-10",
+      "timeLocal": "17:15:00",
+      "venue": "South Paris Arena 1, Paris, France",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "sets": [
+        "25-21",
+        "27-25",
+        "22-25",
+        "25-15"
+      ]
+    },
+    {
+      "id": "m-19086",
+      "gender": "men",
+      "event": "奥运会男排 2024",
+      "eventShort": "奥运会男排 2024",
+      "round": "Final Round · Gold Medal Match",
+      "home": {
+        "country": "法国",
+        "en": "France",
+        "code": "FRA",
+        "flag": "🇫🇷"
+      },
+      "away": {
+        "country": "波兰",
+        "en": "Poland",
+        "code": "POL",
+        "flag": "🇵🇱"
+      },
+      "datetime": "2024-08-10T11:00:00Z",
+      "dateLocal": "2024-08-10",
+      "timeLocal": "13:00:00",
+      "venue": "South Paris Arena 1, Paris, France",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "sets": [
+        "25-19",
+        "25-20",
+        "25-23"
+      ]
+    },
+    {
+      "id": "m-19085",
+      "gender": "men",
+      "event": "奥运会男排 2024",
+      "eventShort": "奥运会男排 2024",
+      "round": "Final Round · Bronze Medal Match",
+      "home": {
+        "country": "意大利",
+        "en": "Italy",
+        "code": "ITA",
+        "flag": "🇮🇹"
+      },
+      "away": {
+        "country": "美国",
+        "en": "USA",
+        "code": "USA",
+        "flag": "🇺🇸"
+      },
+      "datetime": "2024-08-09T14:00:00Z",
+      "dateLocal": "2024-08-09",
+      "timeLocal": "16:00:00",
+      "venue": "South Paris Arena 1, Paris, France",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "sets": [
+        "23-25",
+        "28-30",
+        "24-26"
+      ]
+    },
+    {
+      "id": "m-19110",
+      "gender": "women",
+      "event": "奥运会女排 2024",
+      "eventShort": "奥运会女排 2024",
+      "round": "Final Round · Semifinals",
+      "home": {
+        "country": "土耳其",
+        "en": "Türkiye",
+        "code": "TUR",
+        "flag": "🇹🇷"
+      },
+      "away": {
+        "country": "意大利",
+        "en": "Italy",
+        "code": "ITA",
+        "flag": "🇮🇹"
+      },
+      "datetime": "2024-08-08T18:00:00Z",
+      "dateLocal": "2024-08-08",
+      "timeLocal": "20:00:00",
+      "venue": "South Paris Arena 1, Paris, France",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "sets": [
+        "22-25",
+        "19-25",
+        "22-25"
+      ]
+    },
+    {
+      "id": "m-19109",
+      "gender": "women",
+      "event": "奥运会女排 2024",
+      "eventShort": "奥运会女排 2024",
+      "round": "Final Round · Semifinals",
+      "home": {
+        "country": "巴西",
+        "en": "Brazil",
+        "code": "BRA",
+        "flag": "🇧🇷"
+      },
+      "away": {
+        "country": "美国",
+        "en": "USA",
+        "code": "USA",
+        "flag": "🇺🇸"
+      },
+      "datetime": "2024-08-08T14:00:00Z",
+      "dateLocal": "2024-08-08",
+      "timeLocal": "16:00:00",
+      "venue": "South Paris Arena 1, Paris, France",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "sets": [
+        "23-25",
+        "25-18",
+        "15-25",
+        "25-23",
+        "11-15"
+      ]
+    },
+    {
+      "id": "m-19083",
+      "gender": "men",
+      "event": "奥运会男排 2024",
+      "eventShort": "奥运会男排 2024",
+      "round": "Final Round · Semifinals",
+      "home": {
+        "country": "意大利",
+        "en": "Italy",
+        "code": "ITA",
+        "flag": "🇮🇹"
+      },
+      "away": {
+        "country": "法国",
+        "en": "France",
+        "code": "FRA",
+        "flag": "🇫🇷"
+      },
+      "datetime": "2024-08-07T18:00:00Z",
+      "dateLocal": "2024-08-07",
+      "timeLocal": "20:00:00",
+      "venue": "South Paris Arena 1, Paris, France",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "sets": [
+        "20-25",
+        "21-25",
+        "21-25"
+      ]
+    },
+    {
+      "id": "m-19084",
+      "gender": "men",
+      "event": "奥运会男排 2024",
+      "eventShort": "奥运会男排 2024",
+      "round": "Final Round · Semifinals",
+      "home": {
+        "country": "波兰",
+        "en": "Poland",
+        "code": "POL",
+        "flag": "🇵🇱"
+      },
+      "away": {
+        "country": "美国",
+        "en": "USA",
+        "code": "USA",
+        "flag": "🇺🇸"
+      },
+      "datetime": "2024-08-07T14:00:00Z",
+      "dateLocal": "2024-08-07",
+      "timeLocal": "16:00:00",
+      "venue": "South Paris Arena 1, Paris, France",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "sets": [
+        "25-23",
+        "25-27",
+        "14-25",
+        "25-23",
+        "15-13"
       ]
     }
   ]
