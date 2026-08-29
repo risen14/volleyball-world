@@ -23,6 +23,13 @@
     return new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }).format(d);
   }
 
+  // 把 UTC 时间换算成北京时间（Asia/Shanghai，UTC+8）
+  function fmtBeijing(iso) {
+    const d = new Date(iso);
+    if (isNaN(d)) return '—';
+    return new Intl.DateTimeFormat('zh-CN', { timeZone: 'Asia/Shanghai', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }).format(d);
+  }
+
   function countdown(iso, status) {
     const d = new Date(iso);
     if (isNaN(d)) return '';
@@ -175,7 +182,7 @@
       venue.textContent = '📍 ' + (m.venue || '');
       const tl = document.createElement('span');
       tl.className = 'time-local';
-      tl.textContent = '🕐 ' + (m.dateLocal || '') + ' ' + (m.timeLocal || '') + '（当地）';
+      tl.textContent = '🕐 ' + fmtBeijing(m.datetime) + '（北京时间）';
       foot.appendChild(venue); foot.appendChild(tl);
       card.appendChild(foot);
 
