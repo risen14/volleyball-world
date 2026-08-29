@@ -46,8 +46,19 @@ const ZH = {
   BOL: '玻利维亚', ECU: '厄瓜多尔', PAR: '巴拉圭'
 };
 
-// 只收录“世界级 / 洲际 / 大型综合赛事”，排除地区性小杯赛
-const MAJOR_RE = /world championship|nations league|\bvnl\b|olympic|club world|continental championship|continental cup|asian games|eurovolley|african nations|pan american cup|world cup|challenger cup/i;
+// 只收录 4 类赛事：世界排球联赛(VNL)、亚洲排球锦标赛、世界排球锦标赛、奥运会
+const WANTED = [
+  /Nations League/i,                    // 世界排球联赛 VNL
+  /Asian Continental Championship/i,    // 亚洲排球锦标赛
+  /World Championship/i,                // 世界排球锦标赛
+  /Olympic/i                            // 奥运会
+];
+const EXCLUDE = /Club World|U1[0-9]|U2[0-9]|Youth|Junior|Beach|Challenger/i;
+function isWanted(name) {
+  const n = name || '';
+  if (EXCLUDE.test(n)) return false;
+  return WANTED.some(re => re.test(n));
+}
 
 // 赛事英文名 -> 中文名（按官方赛事代码精确对照）
 const TOURNAMENT_ZH = {
@@ -147,35 +158,48 @@ export async function refresh() {
   }
 
   // 选赛事：仅男排/女排 + 世界级/洲际/大型赛事 + 时间窗口（近期结束 ~ 未来约3个月）
-  const selected = tournaments
-    .filter(t => (t.gender === 0 || t.gender === 1) && MAJOR_RE.test(t.name || '') && !/test/i.test(t.name || ''))
-    .filter(t => {
-      const start = new Date(t.startDate).getTime();
-      const end = new Date(t.endDate).getTime();
-      if (!isFinite(start)) return false;
-      return (isFinite(end) ? end >= nowMs - 45 * D : true) && start <= nowMs + 100 * D;
-    })
+  function categoryOf(name) {
+    if (/Nations League/i.test(name)) return 'vnl';
+    if (/Asian Continental Championship/i.test(name)) return 'asian';
+    if (/World Championship/i.test(name)) return 'wc';
+    if (/Olympic/i.test(name)) return 'olympic';
+    return null;
+  }
+  // 每类赛事（男/女）只保留最新一届
+  const grouped = new Map();
+  for (const t of tournaments) {
+    if (t.gender !== 0 && t.gender !== 1) continue;
+    if (!isWanted(t.name) || /test/i.test(t.name || '')) continue;
+    const cat = categoryOf(t.name);
+    const start = new Date(t.startDate).getTime();
+    if (!cat || !isFinite(start)) continue;
+    const key = cat + '-' + t.gender;
+    const cur = grouped.get(key);
+    if (!cur || start > new Date(cur.startDate).getTime()) grouped.set(key, t);
+  }
+  const selected = [...grouped.values()]
     .sort((a, b) => (a.startDate || '').localeCompare(b.startDate || ''))
-    .slice(0, 18);
+    .slice(0, 12);
 
   const competitions = [];
   const matches = [];
 
   for (const t of selected) {
+    const zh = zhTournament(t.code, t.name, t.gender === 0 ? 'men' : 'women');
+    competitions.push({
+      no: t.no, code: t.code, name: zh, nameEn: t.name,
+      shortName: zh, gender: t.gender === 0 ? 'men' : 'women',
+      startDate: t.startDate, endDate: t.endDate, live: true
+    });
+
+    // 已结束超过45天的赛事只列名、不取比赛（其比赛不会进入“最近4场”）
+    const endDate = new Date(t.endDate).getTime();
+    if (isFinite(endDate) && endDate < nowMs - 45 * D) continue;
+
     try {
       const ms = await fetchMatches(t.no);
-      const zh = zhTournament(t.code, t.name, t.gender === 0 ? 'men' : 'women');
-
-      competitions.push({
-        no: t.no, code: t.code, name: zh, nameEn: t.name,
-        shortName: zh, gender: t.gender === 0 ? 'men' : 'women',
-        startDate: t.startDate, endDate: t.endDate, live: true
-      });
-
       for (const m of ms) {
         const dt = m.beginDateTimeUtc || m.dateTimeUtc;
-        const d = new Date(dt).getTime();
-        if (isFinite(d) && (d < nowMs - 21 * D || d > nowMs + 31 * D)) continue; // 只留近期+未来一个月的比赛
         const status = mapStatus(m);
 
         const makeTeam = (code, name) => {
@@ -208,13 +232,15 @@ export async function refresh() {
     }
   }
 
-  // 排序：进行中 > 未开始(近) > 已结束(近)；总数封顶
-  const order = { live: 0, upcoming: 1, finished: 2 };
-  matches.sort((a, b) => {
-    if (order[a.status] !== order[b.status]) return order[a.status] - order[b.status];
-    return new Date(a.datetime) - new Date(b.datetime);
-  });
-  const trimmed = matches.slice(0, 160);
+  // 展示：进行中(全部) + 未开始(全部，最近的在前) + 已结束(仅最近 4 场)
+  const live = matches.filter(m => m.status === 'live')
+    .sort((a, b) => new Date(a.datetime) - new Date(b.datetime));
+  const upcoming = matches.filter(m => m.status === 'upcoming')
+    .sort((a, b) => new Date(a.datetime) - new Date(b.datetime));
+  const finished = matches.filter(m => m.status === 'finished')
+    .sort((a, b) => new Date(b.datetime) - new Date(a.datetime))
+    .slice(0, 4);
+  const trimmed = [...live, ...upcoming, ...finished];
 
   state = {
     updatedAt: now.toISOString(),

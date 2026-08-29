@@ -103,7 +103,8 @@
     const order = { live: 0, upcoming: 1, finished: 2 };
     const list = visible().slice().sort((a, b) => {
       if (order[a.status] !== order[b.status]) return order[a.status] - order[b.status];
-      return new Date(a.datetime) - new Date(b.datetime);
+      const diff = new Date(a.datetime) - new Date(b.datetime);
+      return a.status === 'finished' ? -diff : diff;
     });
     const box = $('match-list');
     box.innerHTML = '';
