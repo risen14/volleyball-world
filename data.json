@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-29T23:08:47.032Z",
-  "nextUpdate": "2026-08-30T00:08:47.032Z",
+  "updatedAt": "2026-08-30T04:43:25.580Z",
+  "nextUpdate": "2026-08-30T05:43:25.580Z",
   "source": "FIVB VIS 官方接口（真实数据）",
   "liveSource": true,
   "competitions": [
@@ -116,7 +116,7 @@
       "dateLocal": "2026-08-30",
       "timeLocal": "15:15:00",
       "venue": "Tianjin Olympic Center Gymnasium, Tianjin, China",
-      "status": "upcoming",
+      "status": "live",
       "score": null,
       "sets": []
     },
@@ -142,7 +142,7 @@
       "dateLocal": "2026-08-30",
       "timeLocal": "18:45:00",
       "venue": "Tianjin Olympic Center Gymnasium, Tianjin, China",
-      "status": "upcoming",
+      "status": "live",
       "score": null,
       "sets": []
     },
