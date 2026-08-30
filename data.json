@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-30T04:43:25.580Z",
-  "nextUpdate": "2026-08-30T05:43:25.580Z",
+  "updatedAt": "2026-08-30T10:23:53.537Z",
+  "nextUpdate": "2026-08-30T11:23:53.537Z",
   "source": "FIVB VIS 官方接口（真实数据）",
   "liveSource": true,
   "competitions": [
@@ -94,32 +94,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "m-28827",
-      "gender": "women",
-      "event": "亚洲女排锦标赛 2026",
-      "eventShort": "亚洲女排锦标赛 2026",
-      "round": "Final Round · Final 3-4",
-      "home": {
-        "country": "伊朗",
-        "en": "Iran",
-        "code": "IRI",
-        "flag": "🇮🇷"
-      },
-      "away": {
-        "country": "日本",
-        "en": "Japan",
-        "code": "JPN",
-        "flag": "🇯🇵"
-      },
-      "datetime": "2026-08-30T07:15:00Z",
-      "dateLocal": "2026-08-30",
-      "timeLocal": "15:15:00",
-      "venue": "Tianjin Olympic Center Gymnasium, Tianjin, China",
-      "status": "live",
-      "score": null,
-      "sets": []
-    },
     {
       "id": "m-28828",
       "gender": "women",
@@ -823,6 +797,39 @@
       "sets": []
     },
     {
+      "id": "m-28827",
+      "gender": "women",
+      "event": "亚洲女排锦标赛 2026",
+      "eventShort": "亚洲女排锦标赛 2026",
+      "round": "Final Round · Final 3-4",
+      "home": {
+        "country": "伊朗",
+        "en": "Iran",
+        "code": "IRI",
+        "flag": "🇮🇷"
+      },
+      "away": {
+        "country": "日本",
+        "en": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵"
+      },
+      "datetime": "2026-08-30T07:15:00Z",
+      "dateLocal": "2026-08-30",
+      "timeLocal": "15:15:00",
+      "venue": "Tianjin Olympic Center Gymnasium, Tianjin, China",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "sets": [
+        "21-25",
+        "16-25",
+        "24-26"
+      ]
+    },
+    {
       "id": "m-28825",
       "gender": "women",
       "event": "亚洲女排锦标赛 2026",
@@ -920,40 +927,6 @@
         "25-15",
         "25-22",
         "25-13"
-      ]
-    },
-    {
-      "id": "m-28822",
-      "gender": "women",
-      "event": "亚洲女排锦标赛 2026",
-      "eventShort": "亚洲女排锦标赛 2026",
-      "round": "Final Round · Quarterfinals",
-      "home": {
-        "country": "印度尼西亚",
-        "en": "Indonesia",
-        "code": "INA",
-        "flag": "🇮🇩"
-      },
-      "away": {
-        "country": "伊朗",
-        "en": "Iran",
-        "code": "IRI",
-        "flag": "🇮🇷"
-      },
-      "datetime": "2026-08-28T07:00:00Z",
-      "dateLocal": "2026-08-28",
-      "timeLocal": "15:00:00",
-      "venue": "Tianjin Olympic Center Gymnasium, Tianjin, China",
-      "status": "finished",
-      "score": {
-        "home": 1,
-        "away": 3
-      },
-      "sets": [
-        "25-19",
-        "16-25",
-        "12-25",
-        "17-25"
       ]
     },
     {
