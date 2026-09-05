@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-05T00:45:24.975Z",
-  "nextUpdate": "2026-09-05T01:45:24.975Z",
+  "updatedAt": "2026-09-05T05:27:32.624Z",
+  "nextUpdate": "2026-09-05T06:27:32.624Z",
   "source": "FIVB VIS 官方接口（真实数据）",
   "liveSource": true,
   "competitions": [
@@ -95,32 +95,6 @@
   ],
   "matches": [
     {
-      "id": "m-28832",
-      "gender": "men",
-      "event": "亚洲男排锦标赛 2026",
-      "eventShort": "亚洲男排锦标赛 2026",
-      "round": "Preliminary phase · Pool A",
-      "home": {
-        "country": "澳大利亚",
-        "en": "Australia",
-        "code": "AUS",
-        "flag": "🇦🇺"
-      },
-      "away": {
-        "country": "巴林",
-        "en": "Bahrain",
-        "code": "BRN",
-        "flag": "🇧🇭"
-      },
-      "datetime": "2026-09-05T01:00:00Z",
-      "dateLocal": "2026-09-05",
-      "timeLocal": "10:00:00",
-      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "live",
-      "score": null,
-      "sets": []
-    },
-    {
       "id": "m-28833",
       "gender": "men",
       "event": "亚洲男排锦标赛 2026",
@@ -143,8 +117,14 @@
       "timeLocal": "13:30:00",
       "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
       "status": "live",
-      "score": null,
-      "sets": []
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "sets": [
+        "25-21",
+        "25-24"
+      ]
     },
     {
       "id": "m-28834",
@@ -691,6 +671,39 @@
       "status": "upcoming",
       "score": null,
       "sets": []
+    },
+    {
+      "id": "m-28832",
+      "gender": "men",
+      "event": "亚洲男排锦标赛 2026",
+      "eventShort": "亚洲男排锦标赛 2026",
+      "round": "Preliminary phase · Pool A",
+      "home": {
+        "country": "澳大利亚",
+        "en": "Australia",
+        "code": "AUS",
+        "flag": "🇦🇺"
+      },
+      "away": {
+        "country": "巴林",
+        "en": "Bahrain",
+        "code": "BRN",
+        "flag": "🇧🇭"
+      },
+      "datetime": "2026-09-05T01:00:00Z",
+      "dateLocal": "2026-09-05",
+      "timeLocal": "10:00:00",
+      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "sets": [
+        "25-20",
+        "25-18",
+        "25-21"
+      ]
     },
     {
       "id": "m-28831",
