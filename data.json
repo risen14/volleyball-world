@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-04T22:54:14.673Z",
-  "nextUpdate": "2026-09-04T23:54:14.673Z",
+  "updatedAt": "2026-09-05T00:45:24.975Z",
+  "nextUpdate": "2026-09-05T01:45:24.975Z",
   "source": "FIVB VIS 官方接口（真实数据）",
   "liveSource": true,
   "competitions": [
@@ -116,7 +116,7 @@
       "dateLocal": "2026-09-05",
       "timeLocal": "10:00:00",
       "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "upcoming",
+      "status": "live",
       "score": null,
       "sets": []
     },
@@ -142,7 +142,7 @@
       "dateLocal": "2026-09-05",
       "timeLocal": "13:30:00",
       "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "upcoming",
+      "status": "live",
       "score": null,
       "sets": []
     },
@@ -168,7 +168,7 @@
       "dateLocal": "2026-09-05",
       "timeLocal": "17:00:00",
       "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "upcoming",
+      "status": "live",
       "score": null,
       "sets": []
     },
