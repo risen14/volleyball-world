@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-05T05:27:32.624Z",
-  "nextUpdate": "2026-09-05T06:27:32.624Z",
+  "updatedAt": "2026-09-05T10:18:07.823Z",
+  "nextUpdate": "2026-09-05T11:18:07.823Z",
   "source": "FIVB VIS 官方接口（真实数据）",
   "liveSource": true,
   "competitions": [
@@ -94,64 +94,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "m-28833",
-      "gender": "men",
-      "event": "亚洲男排锦标赛 2026",
-      "eventShort": "亚洲男排锦标赛 2026",
-      "round": "Preliminary phase · Pool B",
-      "home": {
-        "country": "中国",
-        "en": "China",
-        "code": "CHN",
-        "flag": "🇨🇳"
-      },
-      "away": {
-        "country": "印度",
-        "en": "India",
-        "code": "IND",
-        "flag": "🇮🇳"
-      },
-      "datetime": "2026-09-05T04:30:00Z",
-      "dateLocal": "2026-09-05",
-      "timeLocal": "13:30:00",
-      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "live",
-      "score": {
-        "home": 1,
-        "away": 0
-      },
-      "sets": [
-        "25-21",
-        "25-24"
-      ]
-    },
-    {
-      "id": "m-28834",
-      "gender": "men",
-      "event": "亚洲男排锦标赛 2026",
-      "eventShort": "亚洲男排锦标赛 2026",
-      "round": "Preliminary phase · Pool C",
-      "home": {
-        "country": "卡塔尔",
-        "en": "Qatar",
-        "code": "QAT",
-        "flag": "🇶🇦"
-      },
-      "away": {
-        "country": "泰国",
-        "en": "Thailand",
-        "code": "THA",
-        "flag": "🇹🇭"
-      },
-      "datetime": "2026-09-05T08:00:00Z",
-      "dateLocal": "2026-09-05",
-      "timeLocal": "17:00:00",
-      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "live",
-      "score": null,
-      "sets": []
-    },
     {
       "id": "m-28835",
       "gender": "men",
@@ -673,6 +615,72 @@
       "sets": []
     },
     {
+      "id": "m-28834",
+      "gender": "men",
+      "event": "亚洲男排锦标赛 2026",
+      "eventShort": "亚洲男排锦标赛 2026",
+      "round": "Preliminary phase · Pool C",
+      "home": {
+        "country": "卡塔尔",
+        "en": "Qatar",
+        "code": "QAT",
+        "flag": "🇶🇦"
+      },
+      "away": {
+        "country": "泰国",
+        "en": "Thailand",
+        "code": "THA",
+        "flag": "🇹🇭"
+      },
+      "datetime": "2026-09-05T08:00:00Z",
+      "dateLocal": "2026-09-05",
+      "timeLocal": "17:00:00",
+      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "sets": [
+        "22-25",
+        "19-25",
+        "14-25"
+      ]
+    },
+    {
+      "id": "m-28833",
+      "gender": "men",
+      "event": "亚洲男排锦标赛 2026",
+      "eventShort": "亚洲男排锦标赛 2026",
+      "round": "Preliminary phase · Pool B",
+      "home": {
+        "country": "中国",
+        "en": "China",
+        "code": "CHN",
+        "flag": "🇨🇳"
+      },
+      "away": {
+        "country": "印度",
+        "en": "India",
+        "code": "IND",
+        "flag": "🇮🇳"
+      },
+      "datetime": "2026-09-05T04:30:00Z",
+      "dateLocal": "2026-09-05",
+      "timeLocal": "13:30:00",
+      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "sets": [
+        "25-21",
+        "28-26",
+        "27-25"
+      ]
+    },
+    {
       "id": "m-28832",
       "gender": "men",
       "event": "亚洲男排锦标赛 2026",
@@ -737,73 +745,6 @@
         "25-13",
         "20-25",
         "25-9"
-      ]
-    },
-    {
-      "id": "m-28830",
-      "gender": "men",
-      "event": "亚洲男排锦标赛 2026",
-      "eventShort": "亚洲男排锦标赛 2026",
-      "round": "Preliminary phase · Pool C",
-      "home": {
-        "country": "韩国",
-        "en": "Korea",
-        "code": "KOR",
-        "flag": "🇰🇷"
-      },
-      "away": {
-        "country": "中国台北",
-        "en": "Chinese Taipei",
-        "code": "TPE",
-        "flag": "🇹🇼"
-      },
-      "datetime": "2026-09-04T07:00:00Z",
-      "dateLocal": "2026-09-04",
-      "timeLocal": "16:00:00",
-      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "finished",
-      "score": {
-        "home": 3,
-        "away": 1
-      },
-      "sets": [
-        "29-27",
-        "19-25",
-        "25-15",
-        "25-15"
-      ]
-    },
-    {
-      "id": "m-28829",
-      "gender": "men",
-      "event": "亚洲男排锦标赛 2026",
-      "eventShort": "亚洲男排锦标赛 2026",
-      "round": "Preliminary phase · Pool B",
-      "home": {
-        "country": "伊朗",
-        "en": "Iran",
-        "code": "IRI",
-        "flag": "🇮🇷"
-      },
-      "away": {
-        "country": "新西兰",
-        "en": "New Zealand",
-        "code": "NZL",
-        "flag": "🇳🇿"
-      },
-      "datetime": "2026-09-04T03:30:00Z",
-      "dateLocal": "2026-09-04",
-      "timeLocal": "12:30:00",
-      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "finished",
-      "score": {
-        "home": 3,
-        "away": 0
-      },
-      "sets": [
-        "25-15",
-        "25-12",
-        "25-22"
       ]
     },
     {
