@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-11T08:50:27.880Z",
-  "nextUpdate": "2026-09-11T09:50:27.880Z",
+  "updatedAt": "2026-09-11T13:25:05.558Z",
+  "nextUpdate": "2026-09-11T14:25:05.558Z",
   "source": "FIVB VIS 官方接口（真实数据）",
   "liveSource": true,
   "competitions": [
@@ -95,58 +95,6 @@
   ],
   "matches": [
     {
-      "id": "m-28847",
-      "gender": "men",
-      "event": "亚洲男排锦标赛 2026",
-      "eventShort": "亚洲男排锦标赛 2026",
-      "round": "Final Round · Quarterfinals",
-      "home": {
-        "country": "日本",
-        "en": "Japan",
-        "code": "JPN",
-        "flag": "🇯🇵"
-      },
-      "away": {
-        "country": "印度",
-        "en": "India",
-        "code": "IND",
-        "flag": "🇮🇳"
-      },
-      "datetime": "2026-09-11T10:30:00Z",
-      "dateLocal": "2026-09-11",
-      "timeLocal": "19:30:00",
-      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "live",
-      "score": null,
-      "sets": []
-    },
-    {
-      "id": "m-28851",
-      "gender": "men",
-      "event": "亚洲男排锦标赛 2026",
-      "eventShort": "亚洲男排锦标赛 2026",
-      "round": "Final Round · Semifinals",
-      "home": {
-        "country": "待定",
-        "en": "",
-        "code": "",
-        "flag": ""
-      },
-      "away": {
-        "country": "韩国",
-        "en": "Korea",
-        "code": "KOR",
-        "flag": "🇰🇷"
-      },
-      "datetime": "2026-09-12T06:30:00Z",
-      "dateLocal": "2026-09-12",
-      "timeLocal": "15:30:00",
-      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "upcoming",
-      "score": null,
-      "sets": []
-    },
-    {
       "id": "m-28852",
       "gender": "men",
       "event": "亚洲男排锦标赛 2026",
@@ -164,9 +112,35 @@
         "code": "AUS",
         "flag": "🇦🇺"
       },
+      "datetime": "2026-09-12T06:30:00Z",
+      "dateLocal": "2026-09-12",
+      "timeLocal": null,
+      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
+      "status": "upcoming",
+      "score": null,
+      "sets": []
+    },
+    {
+      "id": "m-28851",
+      "gender": "men",
+      "event": "亚洲男排锦标赛 2026",
+      "eventShort": "亚洲男排锦标赛 2026",
+      "round": "Final Round · Semifinals",
+      "home": {
+        "country": "日本",
+        "en": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵"
+      },
+      "away": {
+        "country": "韩国",
+        "en": "Korea",
+        "code": "KOR",
+        "flag": "🇰🇷"
+      },
       "datetime": "2026-09-12T10:30:00Z",
       "dateLocal": "2026-09-12",
-      "timeLocal": "19:30:00",
+      "timeLocal": null,
       "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
       "status": "upcoming",
       "score": null,
@@ -223,6 +197,39 @@
       "status": "upcoming",
       "score": null,
       "sets": []
+    },
+    {
+      "id": "m-28847",
+      "gender": "men",
+      "event": "亚洲男排锦标赛 2026",
+      "eventShort": "亚洲男排锦标赛 2026",
+      "round": "Final Round · Quarterfinals",
+      "home": {
+        "country": "日本",
+        "en": "Japan",
+        "code": "JPN",
+        "flag": "🇯🇵"
+      },
+      "away": {
+        "country": "印度",
+        "en": "India",
+        "code": "IND",
+        "flag": "🇮🇳"
+      },
+      "datetime": "2026-09-11T10:30:00Z",
+      "dateLocal": "2026-09-11",
+      "timeLocal": "19:30:00",
+      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "sets": [
+        "25-17",
+        "25-15",
+        "25-19"
+      ]
     },
     {
       "id": "m-28849",
@@ -323,40 +330,6 @@
         "22-25",
         "24-26",
         "19-25"
-      ]
-    },
-    {
-      "id": "m-28846",
-      "gender": "men",
-      "event": "亚洲男排锦标赛 2026",
-      "eventShort": "亚洲男排锦标赛 2026",
-      "round": "Preliminary phase · Pool B",
-      "home": {
-        "country": "伊朗",
-        "en": "Iran",
-        "code": "IRI",
-        "flag": "🇮🇷"
-      },
-      "away": {
-        "country": "中国",
-        "en": "China",
-        "code": "CHN",
-        "flag": "🇨🇳"
-      },
-      "datetime": "2026-09-09T08:00:00Z",
-      "dateLocal": "2026-09-09",
-      "timeLocal": "17:00:00",
-      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "finished",
-      "score": {
-        "home": 3,
-        "away": 1
-      },
-      "sets": [
-        "25-23",
-        "23-25",
-        "25-22",
-        "25-23"
       ]
     },
     {
