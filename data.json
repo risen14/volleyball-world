@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-12T03:58:20.939Z",
-  "nextUpdate": "2026-09-12T04:58:20.939Z",
+  "updatedAt": "2026-09-12T08:34:57.404Z",
+  "nextUpdate": "2026-09-12T09:34:57.404Z",
   "source": "FIVB VIS 官方接口（真实数据）",
   "liveSource": true,
   "competitions": [
@@ -95,32 +95,6 @@
   ],
   "matches": [
     {
-      "id": "m-28852",
-      "gender": "men",
-      "event": "亚洲男排锦标赛 2026",
-      "eventShort": "亚洲男排锦标赛 2026",
-      "round": "Final Round · Semifinals",
-      "home": {
-        "country": "伊朗",
-        "en": "Iran",
-        "code": "IRI",
-        "flag": "🇮🇷"
-      },
-      "away": {
-        "country": "澳大利亚",
-        "en": "Australia",
-        "code": "AUS",
-        "flag": "🇦🇺"
-      },
-      "datetime": "2026-09-12T06:30:00Z",
-      "dateLocal": "2026-09-12",
-      "timeLocal": "15:30:00",
-      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "upcoming",
-      "score": null,
-      "sets": []
-    },
-    {
       "id": "m-28851",
       "gender": "men",
       "event": "亚洲男排锦标赛 2026",
@@ -142,7 +116,7 @@
       "dateLocal": "2026-09-12",
       "timeLocal": "19:30:00",
       "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "upcoming",
+      "status": "live",
       "score": null,
       "sets": []
     },
@@ -197,6 +171,40 @@
       "status": "upcoming",
       "score": null,
       "sets": []
+    },
+    {
+      "id": "m-28852",
+      "gender": "men",
+      "event": "亚洲男排锦标赛 2026",
+      "eventShort": "亚洲男排锦标赛 2026",
+      "round": "Final Round · Semifinals",
+      "home": {
+        "country": "伊朗",
+        "en": "Iran",
+        "code": "IRI",
+        "flag": "🇮🇷"
+      },
+      "away": {
+        "country": "澳大利亚",
+        "en": "Australia",
+        "code": "AUS",
+        "flag": "🇦🇺"
+      },
+      "datetime": "2026-09-12T06:30:00Z",
+      "dateLocal": "2026-09-12",
+      "timeLocal": "15:30:00",
+      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "sets": [
+        "25-21",
+        "17-25",
+        "25-17",
+        "25-22"
+      ]
     },
     {
       "id": "m-28847",
@@ -297,39 +305,6 @@
         "25-21",
         "25-22",
         "29-27"
-      ]
-    },
-    {
-      "id": "m-28850",
-      "gender": "men",
-      "event": "亚洲男排锦标赛 2026",
-      "eventShort": "亚洲男排锦标赛 2026",
-      "round": "Final Round · Quarterfinals",
-      "home": {
-        "country": "泰国",
-        "en": "Thailand",
-        "code": "THA",
-        "flag": "🇹🇭"
-      },
-      "away": {
-        "country": "澳大利亚",
-        "en": "Australia",
-        "code": "AUS",
-        "flag": "🇦🇺"
-      },
-      "datetime": "2026-09-10T06:30:00Z",
-      "dateLocal": "2026-09-10",
-      "timeLocal": "15:30:00",
-      "venue": "Kitakyushu City Gymnasium, Fukuoka, Japan",
-      "status": "finished",
-      "score": {
-        "home": 0,
-        "away": 3
-      },
-      "sets": [
-        "22-25",
-        "24-26",
-        "19-25"
       ]
     },
     {
