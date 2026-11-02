@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-02T02:12:30.158Z",
-  "nextUpdate": "2026-11-02T03:12:30.158Z",
+  "updatedAt": "2026-11-02T10:45:03.215Z",
+  "nextUpdate": "2026-11-02T11:45:03.215Z",
   "source": "FIVB VIS 官方接口（真实数据）",
   "liveSource": true,
   "competitions": [
@@ -49,28 +49,6 @@
       "live": true
     },
     {
-      "no": 1662,
-      "code": "WVNL2026",
-      "name": "世界女排联赛 2026",
-      "nameEn": "Women's Volleyball Nations League 2026",
-      "shortName": "世界女排联赛 2026",
-      "gender": "women",
-      "startDate": "2026-06-03",
-      "endDate": "2026-07-26",
-      "live": true
-    },
-    {
-      "no": 1661,
-      "code": "MVNL2026",
-      "name": "世界男排联赛 2026",
-      "nameEn": "Men's Volleyball Nations League 2026",
-      "shortName": "世界男排联赛 2026",
-      "gender": "men",
-      "startDate": "2026-06-10",
-      "endDate": "2026-08-02",
-      "live": true
-    },
-    {
       "no": 1766,
       "code": "WAVCAC26",
       "name": "亚洲女排锦标赛 2026",
@@ -90,6 +68,28 @@
       "gender": "men",
       "startDate": "2026-09-04",
       "endDate": "2026-09-13",
+      "live": true
+    },
+    {
+      "no": 1808,
+      "code": "WVNL2027",
+      "name": "世界女排联赛 2027",
+      "nameEn": "Women's Volleyball Nations League 2027",
+      "shortName": "世界女排联赛 2027",
+      "gender": "women",
+      "startDate": "2027-06-01",
+      "endDate": "2027-07-25",
+      "live": true
+    },
+    {
+      "no": 1809,
+      "code": "MVNL2027",
+      "name": "世界男排联赛 2027",
+      "nameEn": "Men's Volleyball Nations League 2027",
+      "shortName": "世界男排联赛 2027",
+      "gender": "men",
+      "startDate": "2027-06-08",
+      "endDate": "2027-08-01",
       "live": true
     }
   ],
@@ -362,279 +362,6 @@
         "20-25",
         "25-20",
         "20-25"
-      ]
-    },
-    {
-      "id": "m-26549",
-      "gender": "men",
-      "event": "世界男排联赛 2026",
-      "eventShort": "世界男排联赛 2026",
-      "round": "Final Round · Final 1-2",
-      "home": {
-        "country": "美国",
-        "en": "USA",
-        "code": "USA",
-        "flag": "🇺🇸"
-      },
-      "away": {
-        "country": "波兰",
-        "en": "Poland",
-        "code": "POL",
-        "flag": "🇵🇱"
-      },
-      "datetime": "2026-08-02T11:30:00Z",
-      "dateLocal": "2026-08-02",
-      "timeLocal": "19:30:00",
-      "venue": "Ningbo Beilun Sports and Arts Centre, Ningbo Beilun, China",
-      "status": "finished",
-      "score": {
-        "home": 2,
-        "away": 3
-      },
-      "sets": [
-        "21-25",
-        "25-23",
-        "27-25",
-        "23-25",
-        "10-15"
-      ]
-    },
-    {
-      "id": "m-26548",
-      "gender": "men",
-      "event": "世界男排联赛 2026",
-      "eventShort": "世界男排联赛 2026",
-      "round": "Final Round · Final 3-4",
-      "home": {
-        "country": "日本",
-        "en": "Japan",
-        "code": "JPN",
-        "flag": "🇯🇵"
-      },
-      "away": {
-        "country": "斯洛文尼亚",
-        "en": "Slovenia",
-        "code": "SLO",
-        "flag": "🇸🇮"
-      },
-      "datetime": "2026-08-02T07:40:00Z",
-      "dateLocal": "2026-08-02",
-      "timeLocal": "15:40:00",
-      "venue": "Ningbo Beilun Sports and Arts Centre, Ningbo Beilun, China",
-      "status": "finished",
-      "score": {
-        "home": 1,
-        "away": 3
-      },
-      "sets": [
-        "21-25",
-        "28-26",
-        "22-25",
-        "22-25"
-      ]
-    },
-    {
-      "id": "m-26546",
-      "gender": "men",
-      "event": "世界男排联赛 2026",
-      "eventShort": "世界男排联赛 2026",
-      "round": "Final Round · Semifinals",
-      "home": {
-        "country": "日本",
-        "en": "Japan",
-        "code": "JPN",
-        "flag": "🇯🇵"
-      },
-      "away": {
-        "country": "美国",
-        "en": "USA",
-        "code": "USA",
-        "flag": "🇺🇸"
-      },
-      "datetime": "2026-08-01T11:30:00Z",
-      "dateLocal": "2026-08-01",
-      "timeLocal": "19:30:00",
-      "venue": "Ningbo Beilun Sports and Arts Centre, Ningbo Beilun, China",
-      "status": "finished",
-      "score": {
-        "home": 2,
-        "away": 3
-      },
-      "sets": [
-        "19-25",
-        "25-23",
-        "25-20",
-        "19-25",
-        "13-15"
-      ]
-    },
-    {
-      "id": "m-26547",
-      "gender": "men",
-      "event": "世界男排联赛 2026",
-      "eventShort": "世界男排联赛 2026",
-      "round": "Final Round · Semifinals",
-      "home": {
-        "country": "斯洛文尼亚",
-        "en": "Slovenia",
-        "code": "SLO",
-        "flag": "🇸🇮"
-      },
-      "away": {
-        "country": "波兰",
-        "en": "Poland",
-        "code": "POL",
-        "flag": "🇵🇱"
-      },
-      "datetime": "2026-08-01T07:00:00Z",
-      "dateLocal": "2026-08-01",
-      "timeLocal": "15:00:00",
-      "venue": "Ningbo Beilun Sports and Arts Centre, Ningbo Beilun, China",
-      "status": "finished",
-      "score": {
-        "home": 0,
-        "away": 3
-      },
-      "sets": [
-        "16-25",
-        "19-25",
-        "17-25"
-      ]
-    },
-    {
-      "id": "m-26665",
-      "gender": "women",
-      "event": "世界女排联赛 2026",
-      "eventShort": "世界女排联赛 2026",
-      "round": "Final Round · Final 1-2",
-      "home": {
-        "country": "土耳其",
-        "en": "Türkiye",
-        "code": "TUR",
-        "flag": "🇹🇷"
-      },
-      "away": {
-        "country": "巴西",
-        "en": "Brazil",
-        "code": "BRA",
-        "flag": "🇧🇷"
-      },
-      "datetime": "2026-07-26T11:30:00Z",
-      "dateLocal": "2026-07-26",
-      "timeLocal": "19:30:00",
-      "venue": "East Asian Games Dome, Macao, Macao, China",
-      "status": "finished",
-      "score": {
-        "home": 3,
-        "away": 1
-      },
-      "sets": [
-        "23-25",
-        "25-23",
-        "26-24",
-        "25-21"
-      ]
-    },
-    {
-      "id": "m-26664",
-      "gender": "women",
-      "event": "世界女排联赛 2026",
-      "eventShort": "世界女排联赛 2026",
-      "round": "Final Round · Final 3-4",
-      "home": {
-        "country": "中国",
-        "en": "China",
-        "code": "CHN",
-        "flag": "🇨🇳"
-      },
-      "away": {
-        "country": "意大利",
-        "en": "Italy",
-        "code": "ITA",
-        "flag": "🇮🇹"
-      },
-      "datetime": "2026-07-26T07:30:00Z",
-      "dateLocal": "2026-07-26",
-      "timeLocal": "15:30:00",
-      "venue": "East Asian Games Dome, Macao, Macao, China",
-      "status": "finished",
-      "score": {
-        "home": 1,
-        "away": 3
-      },
-      "sets": [
-        "16-25",
-        "25-23",
-        "22-25",
-        "13-25"
-      ]
-    },
-    {
-      "id": "m-26662",
-      "gender": "women",
-      "event": "世界女排联赛 2026",
-      "eventShort": "世界女排联赛 2026",
-      "round": "Final Round · Semifinals",
-      "home": {
-        "country": "中国",
-        "en": "China",
-        "code": "CHN",
-        "flag": "🇨🇳"
-      },
-      "away": {
-        "country": "土耳其",
-        "en": "Türkiye",
-        "code": "TUR",
-        "flag": "🇹🇷"
-      },
-      "datetime": "2026-07-25T11:30:00Z",
-      "dateLocal": "2026-07-25",
-      "timeLocal": "19:30:00",
-      "venue": "East Asian Games Dome, Macao, Macao, China",
-      "status": "finished",
-      "score": {
-        "home": 0,
-        "away": 3
-      },
-      "sets": [
-        "21-25",
-        "15-25",
-        "20-25"
-      ]
-    },
-    {
-      "id": "m-26663",
-      "gender": "women",
-      "event": "世界女排联赛 2026",
-      "eventShort": "世界女排联赛 2026",
-      "round": "Final Round · Semifinals",
-      "home": {
-        "country": "巴西",
-        "en": "Brazil",
-        "code": "BRA",
-        "flag": "🇧🇷"
-      },
-      "away": {
-        "country": "意大利",
-        "en": "Italy",
-        "code": "ITA",
-        "flag": "🇮🇹"
-      },
-      "datetime": "2026-07-25T08:00:00Z",
-      "dateLocal": "2026-07-25",
-      "timeLocal": "16:00:00",
-      "venue": "East Asian Games Dome, Macao, Macao, China",
-      "status": "finished",
-      "score": {
-        "home": 3,
-        "away": 2
-      },
-      "sets": [
-        "21-25",
-        "25-21",
-        "26-24",
-        "21-25",
-        "15-12"
       ]
     },
     {
