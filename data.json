@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-03T10:37:54.029Z",
-  "nextUpdate": "2026-11-03T11:37:54.029Z",
+  "updatedAt": "2026-11-03T18:18:11.816Z",
+  "nextUpdate": "2026-11-03T19:18:11.816Z",
   "source": "FIVB VIS 官方接口（真实数据）",
   "liveSource": true,
   "competitions": [
@@ -71,25 +71,25 @@
       "live": true
     },
     {
-      "no": 1808,
-      "code": "WVNL2027",
-      "name": "世界女排联赛 2027",
-      "nameEn": "Women's Volleyball Nations League 2027",
-      "shortName": "世界女排联赛 2027",
+      "no": 1812,
+      "code": "WVNL2028",
+      "name": "世界女排联赛 2028",
+      "nameEn": "Women's Volleyball Nations League 2028",
+      "shortName": "世界女排联赛 2028",
       "gender": "women",
-      "startDate": "2027-06-01",
-      "endDate": "2027-07-25",
+      "startDate": "2028-05-03",
+      "endDate": "2028-06-18",
       "live": true
     },
     {
-      "no": 1809,
-      "code": "MVNL2027",
-      "name": "世界男排联赛 2027",
-      "nameEn": "Men's Volleyball Nations League 2027",
-      "shortName": "世界男排联赛 2027",
+      "no": 1813,
+      "code": "MVNL2028",
+      "name": "世界男排联赛 2028",
+      "nameEn": "Men's Volleyball Nations League 2028",
+      "shortName": "世界男排联赛 2028",
       "gender": "men",
-      "startDate": "2027-06-08",
-      "endDate": "2027-08-01",
+      "startDate": "2028-05-10",
+      "endDate": "2028-06-18",
       "live": true
     }
   ],
